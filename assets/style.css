@@ -1,0 +1,241 @@
+.logo {
+
+    width: 225px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.whatis {
+
+    display: flex;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    width: 441px;
+    height: 66px;
+    left: 70px;
+    top: 463px;
+}
+
+.p2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 1400px;
+
+}
+
+.colortext {
+    color: rgba(207, 48, 49, 1)
+}
+
+
+.pizza {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 750px;
+    height: 1000px;
+    float: right;
+    left: 600px;
+    top: 70px;
+}
+
+.redcircle {
+    position: absolute;
+    width: 700px;
+    height: 820px;
+    top: 70px;
+    z-index: 0
+}
+
+.whitecircle {
+    position: absolute;
+    width: 660px;
+    height: 660px;
+    left: 80px;
+    top: 150px;
+    z-index: 1
+}
+
+.pizzaimage {
+    position: absolute;
+    width: 710px;
+    height: 710px;
+    left: 45px;
+    top: 135px;
+    z-index: 2;
+}
+
+.pilchard1 {
+    position: absolute;
+    width: 177.73px;
+    height: 177.73px;
+    left: 560px;
+    top: 230px;
+    z-index: 2;
+}
+
+.pilchard2 {
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top: 400px;
+
+}
+
+.pilchard3 {
+
+    position: absolute;
+    z-index: 0;
+    left: 420px;
+    top: 705px;
+}
+
+.mushroom {
+    position: absolute;
+    z-index: 1;
+    top: 190px;
+    left: 200px;
+}
+
+.redchilli {
+    position: absolute;
+    z-index: 3;
+    top: 670px;
+}
+
+.basil1 {
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+}
+
+.basil2 {
+    position: absolute;
+    z-index: 1;
+    top: 645px;
+    left: 170px;
+}
+
+
+.nav {
+    display: flex;
+    width: 620px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    width: 264px;
+    height: 66px;
+    background: #CF3031;
+    color: white;
+    box-shadow: 0px 30px 45px rgba(207, 48, 49, 0.3);
+    border-radius: 20px;
+    border: none;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.menu:hover {
+    text-decoration: underline
+}
+
+.nav2 {
+    display: flex;
+    width: 1450px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rectangle1,
+.rectangle2,
+.rectangle3,
+.rectangle4 {
+
+    width: 310px;
+    height: 310px;
+    z-index: 1;
+
+}
+
+.nav3 {
+
+    display: flex;
+
+    width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 1340px;
+    left: 165px;
+    z-index: 3;
+
+
+}
+
+.doordash {
+    width: 200px;
+    height: 45px;
+}
+
+.ubereats {
+    position: relative;
+    width: 187px;
+    height: 131px;
+    left: 1px;
+
+}
+
+.favor {
+    width: 160px;
+    height: 32px;
+
+}
+
+.grubhub {
+    position: relative;
+    width: 167px;
+    height: 37px;
+    left: 15px;
+
+
+}
+
+
+
+.tomatoleaf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    width: 800px;
+
+}
